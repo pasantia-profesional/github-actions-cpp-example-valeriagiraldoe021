@@ -32,7 +32,7 @@ void Producto::setCantidad(int cantidad) {
     this->cantidad = cantidad;
 }
 
-void Producto::mostrarInformacion() const {
+void Producto::mostrarInfo() const {
     std::cout << "ID: " << id << " | Nombre: " << nombre 
               << " | Precio: $" << precio << " | Cantidad: " << cantidad << std::endl;
 }
